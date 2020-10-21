@@ -1,0 +1,59 @@
+{
+    "loop": true,
+    "insertRandom": true,
+    "actions": [
+        [
+            "press",
+            "h"
+        ],
+        [
+            "release",
+            "h"
+        ],
+        [
+            "press",
+            "e"
+        ],
+        [
+            "release",
+            "e"
+        ],
+        [
+            "press",
+            "l"
+        ],
+        [
+            "release",
+            "l"
+        ],
+        [
+            "press",
+            "l"
+        ],
+        [
+            "release",
+            "l"
+        ],
+        [
+            "press",
+            "o"
+        ],
+        [
+            "release",
+            "o"
+        ],
+        [
+            "press",
+            "enter"
+        ],
+        [
+            "release",
+            "enter"
+        ],
+        [
+            "sleep",
+            3000,
+            4000
+        ]
+    ]
+}

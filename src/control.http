@@ -1,0 +1,42 @@
+###
+GET http://192.168.137.107:8003
+
+###
+POST http://192.168.137.107:8003/setScript
+
+{
+    "loop": false,
+    "insertRandom": false,
+    "actions": [
+        [
+            "press",
+            "ctrl"
+        ],
+        [
+            "press",
+            "v"
+        ],
+        [
+            "sleep",
+            100,
+            300
+        ],
+        [
+            "release",
+            "v"
+        ],
+        [
+            "release",
+            "ctrl"
+        ]
+    ]
+}
+
+###
+GET http://192.168.137.107:8003/runScript
+
+###
+GET http://192.168.137.107:8003/interrupt
+
+###
+GET http://192.168.137.107:8003/exit
